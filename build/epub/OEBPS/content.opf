@@ -1,0 +1,77 @@
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="3.0">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title id="en_title">Dark Waves</dc:title>
+<dc:creator>Neil O'Connor;</dc:creator>
+
+<dc:identifier id="BookID">9781538165317</dc:identifier>
+<dc:rights>Copyright © 2023 by The Rowman &amp; Littlefield Publishing Group, Inc.</dc:rights>
+<dc:source id="isbn">urn:isbn:9781538165317</dc:source>
+<dc:date>2023-02-03</dc:date>
+<dc:publisher>Rowman &amp; Littlefield Publishing</dc:publisher>
+<dc:language>eng</dc:language>
+<meta property="title-type" refines="#en_title">main</meta>
+<meta property="source-of" refines="#isbn">pagination</meta>
+<meta property="dcterms:modified">2023-02-03T02:10:39Z</meta><meta content="cover-image" name="cover"/></metadata>
+<manifest>
+<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+
+<item href="Images/frn_fig_001.jpg" id="cover-image" media-type="image/jpeg" properties="cover-image"/>
+<item href="Images/frn_fig_002.png" id="frn_fig_002" media-type="image/png"/>
+<item href="Styles/Stylesheet.css" id="stylesheet" media-type="text/css"/>
+<item href="Text/AboutAuthor.xhtml" id="AboutAuthor" media-type="application/xhtml+xml"/>
+<item href="Text/Bibliography.xhtml" id="Bibliography" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter01.xhtml" id="Chapter01" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter02.xhtml" id="Chapter02" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter03.xhtml" id="Chapter03" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter04.xhtml" id="Chapter04" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter05.xhtml" id="Chapter05" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter06.xhtml" id="Chapter06" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter07.xhtml" id="Chapter07" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter08.xhtml" id="Chapter08" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter09.xhtml" id="Chapter09" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter10.xhtml" id="Chapter10" media-type="application/xhtml+xml"/>
+<item href="Text/Chapter11.xhtml" id="Chapter11" media-type="application/xhtml+xml"/>
+<item href="Text/Copyright.xhtml" id="Copyright" media-type="application/xhtml+xml"/>
+<item href="Text/Cover.xhtml" id="Cover" media-type="application/xhtml+xml"/>
+<item href="Text/Foreword.xhtml" id="Foreword" media-type="application/xhtml+xml"/>
+<item href="Text/HalfTitle.xhtml" id="HalfTitle" media-type="application/xhtml+xml"/>
+<item href="Text/Introduction.xhtml" id="Introduction" media-type="application/xhtml+xml"/>
+<item href="Text/nav.xhtml" id="nav" media-type="application/xhtml+xml" properties="nav"/>
+<item href="Text/Part01.xhtml" id="Part01" media-type="application/xhtml+xml"/>
+<item href="Text/Part02.xhtml" id="Part02" media-type="application/xhtml+xml"/>
+<item href="Text/Part03.xhtml" id="Part03" media-type="application/xhtml+xml"/>
+<item href="Text/Series.xhtml" id="Series" media-type="application/xhtml+xml"/>
+<item href="Text/TitlePage.xhtml" id="TitlePage" media-type="application/xhtml+xml"/>
+</manifest>
+
+<spine toc="ncx">
+<itemref idref="Cover"/>
+<itemref idref="HalfTitle"/>
+<itemref idref="Series"/>
+<itemref idref="TitlePage"/>
+<itemref idref="Copyright"/>
+<itemref idref="nav"/>
+<itemref idref="Foreword"/>
+<itemref idref="Introduction"/>
+<itemref idref="Part01"/>
+<itemref idref="Chapter01"/>
+<itemref idref="Chapter02"/>
+<itemref idref="Chapter03"/>
+<itemref idref="Part02"/>
+<itemref idref="Chapter04"/>
+<itemref idref="Chapter05"/>
+<itemref idref="Chapter06"/>
+<itemref idref="Chapter07"/>
+<itemref idref="Part03"/>
+<itemref idref="Chapter08"/>
+<itemref idref="Chapter09"/>
+<itemref idref="Chapter10"/>
+<itemref idref="Chapter11"/>
+<itemref idref="Bibliography"/>
+<itemref idref="AboutAuthor"/>
+</spine>
+<guide>
+<reference href="Text/Cover.xhtml" title="Cover" type="cover"/>
+<reference href="Text/nav.xhtml" title="Table of Contents" type="toc"/>
+</guide>
+</package>

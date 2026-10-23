@@ -1,0 +1,36 @@
+DARKWAVES.chapter({ n: 2, label: 'Parte I · Cap. 1', title: 'Dystopian Sentimentalities' });
+DARKWAVES.add([
+  { id: 'literatura-distopica', name: 'La ficción distópica: de Hall a Orwell y Huxley', family: 'distopia', start: 1596, end: 1949, place: 'Gran Bretaña',
+    aka: ['dystopia', 'the dystopian machine'],
+    desc: 'La distopía crea mundos futuros donde el gobierno, las corporaciones, la burocracia o la tecnología reprimen el pensamiento independiente: un controlador que vigila y uniformiza a un protagonista. Empieza en Mundus Alter et Idem de Joseph Hall (1596), que influyó en Los viajes de Gulliver; H. G. Wells cerró la era victoriana con When the Sleeper Awakes (1899), que fijó dos temas —la tecnología como herramienta de manipulación y lo subterráneo— y abrió el camino a Nineteen Eighty-Four de Orwell y Brave New World de Huxley. The Machine Stops de E. M. Forster (1909), con una humanidad enterrada en cápsulas donde la Máquina lo provee todo con botones, anticipó la dependencia tecnológica. Para O’Connor, ese sentimiento de pérdida de individualidad y alienación es también el motor de la música electrónica británica de 1973-1983, cuando el sintetizador se volvió vehículo de un sonido «opresivo, controlador y deshumanizado».',
+    artists: ['Joseph Hall', 'Jonathan Swift', 'H. G. Wells', 'E. M. Forster', 'George Orwell', 'Aldous Huxley', 'Charlie Brooker', 'Margaret Atwood'],
+    tracks: [],
+    influences: [],
+    refs: [
+      { q: 'Dystopia is the creation of other worlds, imagined far in the future' },
+      { q: 'Two key dystopian themes are born within When the Sleeper Awakes— the use of technology as a tool of manipulation and the advent of the subterranean.' },
+      { q: 'it was perhaps a sense of loss of individualism and alienation that became its driving force' },
+      { q: 'a dystopian sound: oppressive, controlling, and dehumanised' },
+    ] },
+  { id: 'psicogeografia', name: 'El flâneur y la psicogeografía: Baudelaire, Benjamin, Debord', family: 'vanguardia', start: 1861, end: 1972, place: 'París',
+    aka: ['psychogeography', 'flâneur', 'dérive', 'deriva'],
+    desc: 'Para explicar el sonido distópico hay que pensar en el lugar. El flâneur de Baudelaire (Les Fleurs du Mal, The Painter of Modern Life), artista-detective de la ciudad moderna y signo de la alienación del capitalismo, es el nacimiento del outsider, siempre en el corazón de la electrónica experimental e industrial. Walter Benjamin lo recuperó en The Arcades Project, sobre el consumo como opio, y a mediados de los cincuenta Guy Debord, fundador de la Internacional Letrista, acuñó la psicogeografía: la relación emocional con el paisaje urbano, la ética de la deriva. Las ciudades donde se hicieron estos discos —sobre todo Sheffield para Cabaret Voltaire— marcaron su sonido.',
+    artists: ['Charles Baudelaire', 'Walter Benjamin', 'Guy Debord'],
+    tracks: [],
+    influences: [],
+    refs: [
+      { q: 'The flâneur was the birth of the outsider, and as we know, the realm of the outsider has always been at the heart of esoteric and experimental electronic and industrial music.' },
+      { q: 'An environment could both alter mood and influence behaviour.' },
+    ] },
+  { id: 'sintetizador', name: 'El sintetizador como invención: Moog, EMS y el retraso cultural', family: 'pioneros', start: 1964, end: 1985, place: 'Estados Unidos; Gran Bretaña; Japón',
+    aka: ['cultural lag', 'synthesizer', 'Moog', 'Korg', 'Roland', 'MIDI'],
+    desc: 'O’Connor aplica la teoría del retraso cultural del sociólogo William F. Ogburn (1922): la tecnología es el motor del progreso, pero la cultura tarda en adaptarse a sus inventos, y en esa demora surgen conflictos y dinamismos; invención, acumulación, difusión y ajuste, como en la evolución del sintetizador hasta el MIDI de los ochenta. Da igual dónde se fabrique (Moog en Estados Unidos, EMS en el Reino Unido): con los sintetizadores asequibles de Korg y Roland entre 1977 y 1980, cada vez más gente tocó música sintetizada y creó nuevas tendencias sociales. Lejos de Londres, Cabaret Voltaire pudo reinventarse como una auténtica «invención» propia.',
+    artists: ['William F. Ogburn', 'Robert Moog'],
+    labels: ['Moog', 'EMS', 'Korg', 'Roland'],
+    tracks: [],
+    influences: ['ems'],
+    refs: [
+      { q: 'In the case of the synthesizer, technological means altered the paradigm of traditional musicmaking and its resulting sound.' },
+      { q: 'with the advent of more affordable synthesizers, via both Korg and Roland during the period of 1977–1980, more and more people were playing synthesised music' },
+    ] },
+], 2);
